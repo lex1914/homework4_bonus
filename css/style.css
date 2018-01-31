@@ -1,0 +1,63 @@
+ * {
+ 	margin: 0;
+ 	padding: 0;
+ }
+
+/* for firefox */
+span::-moz-selection { 
+	background: black;
+	color: red;
+}
+
+/*for chromium/chrome*/
+span::selection {
+	background: black;
+	color: red;
+}
+
+span:first-line {
+	color: #0055ff;
+	text-transform: uppercase;
+	background-color: #B5FF00;
+}
+
+span {
+	display: block;
+	border: 1px solid lightgrey;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 30px;
+	margin-bottom: 5px;
+	color: white;
+}
+
+footer {
+	height: 40px;
+	background: #bbb;
+}
+
+.wrapper-box {
+	width: auto;
+	overflow: hidden;
+}
+
+.column1,
+.column2,
+.column3 {
+	width: 400px;
+	float: left;
+	padding: 26px;
+	padding-bottom: 20000px;
+	margin-bottom: -20000px;
+	
+}
+.column1 {
+	background: #e3e244;
+}
+
+.column2 {
+	background: #e34456;
+}
+
+.column3 {
+	background: #3d2af0;
+}
